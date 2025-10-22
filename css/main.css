@@ -1,0 +1,75 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+     border-bottom: 2px solid #000000; 
+     min-height: 70px;
+     ;
+}
+
+header img {
+    max-height: 70px;
+    justify-content: flex-start;
+}
+
+#hero  {
+    
+    display: flex;
+    left: 50%;
+   
+}
+
+#hero h2 {
+    color: rgb(111, 107, 102);
+    font-size: 100px;
+    font-family: "League Spartan";
+    margin-top: 1;
+  margin-bottom: 0;
+}
+
+#dev-motion-designer h2 {
+    color: rgb(0, 0, 0);
+    font-size: 200px;
+    font-family: "League Spartan";
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+#bio {
+    min-height: 600px;
+    border: 2px solid #000000;
+    border-radius: 30px;
+   background: radial-gradient(circle, #c3e1ff, #fff3d0);
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Geneva;
+}
+
+
+.zalando-sans-semiexpanded-<uniquifier> {
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.league-spartan-<uniquifier> {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
